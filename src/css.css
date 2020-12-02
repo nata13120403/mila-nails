@@ -1,0 +1,282 @@
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.App {
+    height: 100%;
+    justify-content: space-between;
+   
+}
+#root{
+    height: 100% ;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    flex:1;
+  
+
+} 
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+#logoName {
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    color:  #643350;
+    background-color: ivory;
+    flex-wrap: wrap;
+    border:1px solid #ad6d94;
+    
+}
+/*Menu*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    ;
+}
+.menu li{
+    display: flex;
+    flex-flow: row;
+  
+   
+}
+   
+.menu a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 5px;
+    text-align: center;
+    display: -ms-inline-flexbox;
+
+}
+
+a:hover {
+    background-color: rgb(247, 242, 242);
+    border-bottom: rgb(124, 99, 124)  solid 5px;
+}
+.active_link{
+    background-color: rgb(247, 242, 242);
+    border-bottom: rgb(124, 99, 124)  solid 5px;
+}
+/*Home page*/
+/*Right content*/
+
+.home {
+display: flex;
+background-color:wite;
+flex-direction: row;
+flex: 1;
+justify-content: center;
+}
+/*.home div{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: space-between;
+    align-items: center;
+
+}*/
+
+#home_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    align-items: center;  
+}
+#newsletter{
+    display: flex;
+    flex-direction: column;
+    background-color: seashell;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+/*Gallery page*/
+.Gallery{
+    /*font-family: sans-serif;*/
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    perspective: 1000px;
+    flex-wrap: wrap;
+    
+
+}
+.container{
+    background: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     
+}
+.card{
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width: 15rem;
+    background: seashell;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), rgba(0, 0,0, 0.2);
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.photo {
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    }
+.photo img{
+    width: 20rem;
+    justify-content: center;
+
+
+}
+/*Service page*/
+.service{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/*Product page*/
+.product-page{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: #643350 solid 2px;
+    width: 250px;
+    height: 250 ;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: rgb(247, 248, 248);
+    box-shadow: 5px 10px 15px rgb(29, 180, 168);
+}
+
+.single-post-page{
+display: flex;
+align-items: center;
+margin: 100px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*About page*/
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Instagram{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: lemonchiffon;
+}
+#Instagram{
+    font-family: 'Parisienne', cursive;
+    font-size: 24px;
+    color: indigo;
+  }
+  .Instagram_logo{
+    border-radius: 12px;
+  }
+  .Instagram p{
+      display: flex;
+      padding-left: 40px;
+  }
+
+/*Footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    background-color: rgb(241, 167, 167);
+    
+} 
+footer p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    font-size: 18px;
+    font-family: 'Parisienne', cursive;
+    align-items: center;
+    
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0%;
+    padding: 0px;
+    
+}
+
+.salon {
+    text-align: left;
+}
+/*footer div p{
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul{
+    list-style-type: none;
+    color: white;
+}
+*/
+
+
+
+
+
+
