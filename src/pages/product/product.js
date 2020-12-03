@@ -31,9 +31,8 @@ import ProductD from '../../photo/IMG_1484.JPG';
                         <div>
                             <img src={ProductA} alt="" height='150' width='150'  />
                         </div>
-                       <p> 
-                       <Link to={"/posts/" + post.id}>{post.title}</Link>
-                      
+                       <p > 
+                       <Link className="postLink" to={"/posts/" + post.id}>{post.title}</Link>
                        </p>
                        <p>{post.body}</p>
                     </li>

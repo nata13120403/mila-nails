@@ -264,16 +264,19 @@ footer p{
 .salon {
     text-align: left;
 }
-/*footer div p{
-    display: flex;
-    flex-direction: row;
-}
 
-footer ul{
-    list-style-type: none;
-    color: white;
+
+
+.postLink {
+    color: rgb(61, 6, 45);
+    text-decoration: none;
+    
+    
 }
-*/
+a.postLink:hover {
+    text-decoration: none;
+    border-bottom: none;
+}
 
 
 

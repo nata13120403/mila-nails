@@ -19,7 +19,7 @@ const SinglePostPage = () => {
         
         const { id: postId, title, body } = data;
         setPost({id: postId, title: title, body: body});
-        console.log('Fetched post', post);
+       // console.log('Fetched post', post);
       });
 
     }, []);
